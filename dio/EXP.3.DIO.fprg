@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell Inspiron"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-07 04:42:13 "/>
+        <attribute name="created" value="RGVsbCBJbnNwaXJvbjtERVNLVE9QLUlERE5KOUk7MjAyMi0wNC0wNzsiMDQ6MzI6MjEgIjszNTI1"/>
+        <attribute name="edited" value="RGVsbCBJbnNwaXJvbjtERVNLVE9QLUlERE5KOUk7MjAyMi0wNC0wNzsiMDQ6NDI6MTMgIjsxOzM2MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cliente" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;Boa tarde, como gostaria de ser chamado?&quot;" newline="True"/>
+            <input variable="cliente"/>
+            <output expression="&quot;Qual n&#250;mero de cart&#227;o?&quot;" newline="True"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <output expression="&quot;Por favor nos informe seu n&#250;mero de cadastro para proserguirmos&quot;" newline="True"/>
+                    <input variable="numero"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente s&#243; realizamos vendas por cart&#227;o de cr&#233;dito&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

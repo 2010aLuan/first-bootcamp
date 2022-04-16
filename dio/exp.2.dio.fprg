@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell Inspiron"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-07 04:30:59 "/>
+        <attribute name="created" value="RGVsbCBJbnNwaXJvbjtERVNLVE9QLUlERE5KOUk7MjAyMi0wNC0wNzsiMDQ6MjM6MjYgIjszNTMw"/>
+        <attribute name="edited" value="RGVsbCBJbnNwaXJvbjtERVNLVE9QLUlERE5KOUk7MjAyMi0wNC0wNzsiMDQ6MzA6NTkgIjsxOzM2NDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, d" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="1"/>
+            <assign variable="b" expression="1"/>
+            <assign variable="c" expression="3"/>
+            <output expression="a&gt;b" newline="True"/>
+            <output expression="a=c" newline="True"/>
+            <output expression="a=b" newline="True"/>
+            <assign variable="d" expression="a+b"/>
+            <output expression="d&gt;=c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

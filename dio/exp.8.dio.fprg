@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Dell Inspiron"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-08 05:50:12 "/>
+        <attribute name="created" value="RGVsbCBJbnNwaXJvbjtERVNLVE9QLUlERE5KOUk7MjAyMi0wNC0wODsiMDU6NDA6MjMgIjszNTI4"/>
+        <attribute name="edited" value="RGVsbCBJbnNwaXJvbjtERVNLVE9QLUlERE5KOUk7MjAyMi0wNC0wODsiMDU6NTA6MTIgIjsxOzM2MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Segue a tabuada do 9&quot;" newline="True"/>
+            <declare name="numero, limite, multiplicador" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="limite" expression="10"/>
+            <assign variable="multiplicador" expression="0"/>
+            <while expression="multiplicador&lt;=limite">
+                <output expression="&quot;9 x &quot; &amp; numero &amp; &quot;=&quot; &amp; numero*multiplicador" newline="True"/>
+                <assign variable="multiplicador" expression="multiplicador + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
